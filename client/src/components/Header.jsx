@@ -6,7 +6,7 @@ const Header = () => {
     <header className="flex flex-row items-center justify-between drop-shadow-md py-2 px-5 bg-white">
       <div className="flex flex-row justify-center items-center cursor-pointer">
         <img
-          className="w-6 h-6 object-contain cursor-pointer"
+          className="w-6 h-6 object-contain cursor-pointer"  
           src={ethLogo}
           alt="Etherium Logo"
         />
