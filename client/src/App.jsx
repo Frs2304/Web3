@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Tabuler from './components/Tabuler'
 import {
-  isWallectConnected,
+  isWallectConnected,  
   checkIfTransactionExist,
   connectWallet,
 } from './shared/Transaction'
