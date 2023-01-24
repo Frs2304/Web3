@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import AddTransactionCard from './components/AddTransactionCard';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Tabuler from './components/Tabuler'
+import Tabuler from './components/Tabuler';
 import {
   isWallectConnected,  
   checkIfTransactionExist,
