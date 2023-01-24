@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect } from 'react';
 import AddTransactionCard from './components/AddTransactionCard'
 import Header from './components/Header'
 import Hero from './components/Hero'
