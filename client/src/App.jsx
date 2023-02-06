@@ -11,10 +11,10 @@ import {
 import { useGlobalState } from './store'
 
 const App = () => {
-  const [connectedAccount] = useGlobalState('connectedAccount')
+  const [connectedAccount] = useGlobalState('connectedAccount');
   useEffect(() => {
-    isWallectConnected()
-    checkIfTransactionExist()
+    isWallectConnected();
+    checkIfTransactionExist();
   }, [])
 
   return (
