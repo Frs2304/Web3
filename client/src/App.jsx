@@ -8,7 +8,7 @@ import {
   checkIfTransactionExist,
   connectWallet,
 } from './shared/Transaction'
-import { useGlobalState } from './store'
+import { useGlobalState } from './store';
 
 const App = () => {
   const [connectedAccount] = useGlobalState('connectedAccount');
