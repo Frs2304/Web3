@@ -65,10 +65,6 @@ To run the demo follow these steps:
    ```
 8. Open the browser and visit the url on the terminal.
 
-<br/>
-
-Questions about running the demo? [Open an issue](https://github.com/Daltonic/dalto/issues). We're here to help ✌️
-
 ## Useful links
 
 - 🏠 [Website](https://daltonic.github.io/)
