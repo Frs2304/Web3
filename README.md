@@ -1,9 +1,5 @@
 # Building an Ethereum Transaction App with React and Solidity.
 
-Read the full tutorial here: [**>> Building an Ethereum Transaction App with React and Solidity**](https://daltonic.github.io)
-
-This example shows Building an Ethereum Transaction App with React and Solidity:
-
 ![The Interface](./screenshots/0.gif)
 
 <center><figcaption>Dalto Interface</figcaption></center>
