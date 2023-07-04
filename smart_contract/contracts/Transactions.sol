@@ -1,5 +1,5 @@
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.0
 
 contract Transactions {
     address private owner;
