@@ -1,4 +1,4 @@
-import { LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline';
 
 const Hero = () => {
   const features = [
@@ -53,4 +53,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
