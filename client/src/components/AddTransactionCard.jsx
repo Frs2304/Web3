@@ -1,14 +1,14 @@
-import { useGlobalState, setGlobalState } from '../store'
-import { useState } from 'react'
-import { sendMoney } from '../shared/Transaction'
+import { useGlobalState, setGlobalState } from '../store';
+import { useState } from 'react';
+import { sendMoney } from '../shared/Transaction';
 
 const AddTransactionCard = () => {
-  const [modal] = useGlobalState('modal')
-  const [connectedAccount] = useGlobalState('connectedAccount')
-  const [address, setAddress] = useState('')
-  const [amount, setAmount] = useState('')
-  const [remark, setRemark] = useState('')
-  const [loading, setLoading] = useState(false)
+  const [modal] = useGlobalState('modal');
+  const [connectedAccount] = useGlobalState('connectedAccount');
+  const [address, setAddress] = useState('');
+  const [amount, setAmount] = useState('');
+  const [remark, setRemark] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = () => {
     if (!address || !amount || !remark) return
@@ -142,4 +142,4 @@ const AddTransactionCard = () => {
   )
 }
 
-export default AddTransactionCard
+export default AddTransactionCard;
